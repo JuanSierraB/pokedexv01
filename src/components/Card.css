@@ -1,0 +1,27 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;  
+  width: 150px;
+}
+
+.card img {
+  max-width: 100px; 
+  height: auto;
+}
+
+/* Responsivo */
+@media (min-width: 600px) {
+  .pokemon-card {
+    width: 200px;
+  }
+}
+@media (min-width: 768px) {
+  .pokemon-grid {
+    justify-content: space-around;
+  }
+}
